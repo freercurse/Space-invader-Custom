@@ -45,7 +45,6 @@ public class Player_Movement : MonoBehaviour
     {
         collided = 1;
     }
-
     private void OnCollisionExit(Collision collision)
     {
         collided = 0;

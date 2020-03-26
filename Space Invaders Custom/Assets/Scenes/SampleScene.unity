@@ -374,6 +374,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &631844449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1243191714859860399, guid: 162827a10c34407449efeeed3ccd82f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8308081297221012253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &631844454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631844449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a729ccb51a06044bf981c7ba9976fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lazer: {fileID: 2419715467813296902, guid: 6955a463202625141bfb1327ff0738d9, type: 3}
+  shootForce: 100
 --- !u!1 &660578726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1131,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2012707358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1773068062987519877, guid: 162827a10c34407449efeeed3ccd82f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8308081297221012253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2012707363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012707358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a729ccb51a06044bf981c7ba9976fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lazer: {fileID: 2419715467813296902, guid: 6955a463202625141bfb1327ff0738d9, type: 3}
+  shootForce: 100
 --- !u!1001 &8308081297221012253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1186,6 +1226,11 @@ PrefabInstance:
     - target: {fileID: 8308081295746266954, guid: 162827a10c34407449efeeed3ccd82f3,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308081295746266954, guid: 162827a10c34407449efeeed3ccd82f3,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8401043223503513540, guid: 162827a10c34407449efeeed3ccd82f3,

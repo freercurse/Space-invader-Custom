@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\Player_Movement.cs" />
+    <Compile Include="Assets\Scripts\Player\Player_Shoot.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Repso/Space invader Custom/Space Invaders Custom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
