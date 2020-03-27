@@ -25,7 +25,7 @@ public class Player_Shoot : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject shot = GameObject.Instantiate(Lazer, transform.position, transform.rotation);
-            shot.GetComponent<Rigidbody>().AddForce(transform.up * - shootForce);
+            shot.GetComponent<Rigidbody>().AddForce(transform.up * shootForce);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,8 +12,9 @@ public class Player_Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         rb = GetComponent<Rigidbody>();
-    }
+    }  
 
     // Update is called once per frame
     void Update()
@@ -24,20 +26,24 @@ public class Player_Movement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
+           
             rb.AddForce(-thrust, 0, 0);
         }
         else if (Input.GetKeyUp(KeyCode.A) && collided == 0)
         {
             rb.AddForce(thrust, 0, 0);
+           
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
+            
             rb.AddForce(thrust, 0, 0);
         }
         else if (Input.GetKeyUp(KeyCode.D) && collided == 0)
         {
             rb.AddForce(-thrust, 0, 0);
+            
         }       
     }
 
