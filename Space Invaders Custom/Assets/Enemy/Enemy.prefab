@@ -382,7 +382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2075807619464295061}
   - component: {fileID: -6405772080233757621}
-  - component: {fileID: -664955108052718963}
+  - component: {fileID: 6711629322176494476}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
@@ -428,7 +428,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
---- !u!114 &-664955108052718963
+--- !u!114 &6711629322176494476
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -441,8 +441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 0
-  pointsDisplay: {fileID: 5060316624375185636, guid: d4657f3e8b413854eae3e5ab168494be,
-    type: 3}
+  pointsDisplay: {fileID: 0}
 --- !u!1 &4515281649975670647
 GameObject:
   m_ObjectHideFlags: 0

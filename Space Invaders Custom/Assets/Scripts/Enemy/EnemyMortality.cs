@@ -4,10 +4,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class EnemyGameplay : MonoBehaviour
-{
-    public int points = 0;
-    public GameObject pointsDisplay;
+public class EnemyMortality : MonoBehaviour
+{   
 
     // Start is called before the first frame update
     void Start()
