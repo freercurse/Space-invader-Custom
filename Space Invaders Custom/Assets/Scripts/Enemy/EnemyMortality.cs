@@ -25,19 +25,9 @@ public class EnemyGameplay : MonoBehaviour
     {
         if (collision.collider.tag == "Projectile")
         {
-            DestroyObject(this.gameObject);
-
-            points = points + 2;
-            setScore();
+            DestroyObject(this.gameObject);            
         }
     }
 
-    public void setScore()
-    {
-        Text pointsToDisplay = pointsDisplay.GetComponent<Text>();
-        pointsToDisplay.text = points.ToString();
-        Debug.Log(points.ToString());
-        Debug.Log("points have been scored");
-       
-    }
+ 
 }

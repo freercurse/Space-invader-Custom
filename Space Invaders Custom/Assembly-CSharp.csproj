@@ -63,7 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Enemy\EnemyGameplay.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyMortality.cs" />
+    <Compile Include="Assets\Scripts\Enemy\GamePlay.cs" />
     <Compile Include="Assets\Scripts\Enemy\SpawnForCombat.cs" />
     <Compile Include="Assets\Scripts\Player\Delayed_DeSpawn.cs" />
     <Compile Include="Assets\Scripts\Player\Player_Movement.cs" />
