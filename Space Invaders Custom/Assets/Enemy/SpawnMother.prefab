@@ -72,6 +72,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e97c9e55fa4ace94a85377840b7fd0b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: {fileID: 3752703275388150958, guid: 338b1e4012a3c4c4e9647b9c261ff0ee, type: 3}
+  MyText: {fileID: 5060316624375185634, guid: d4657f3e8b413854eae3e5ab168494be, type: 3}
+  points: 0
 --- !u!1001 &714950920650146220
 PrefabInstance:
   m_ObjectHideFlags: 0

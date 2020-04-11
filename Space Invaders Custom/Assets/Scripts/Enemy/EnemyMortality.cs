@@ -23,6 +23,7 @@ public class EnemyMortality : MonoBehaviour
     {
         if (collision.collider.tag == "Projectile")
         {
+            this.gameObject.tag = "dead";
             DestroyObject(this.gameObject);            
         }
     }
