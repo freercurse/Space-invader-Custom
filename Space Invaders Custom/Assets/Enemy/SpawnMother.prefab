@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2234938082719191827}
   - component: {fileID: 2234938082719191828}
-  - component: {fileID: -3111791164846847138}
   m_Layer: 0
   m_Name: SpawnMother
   m_TagString: Untagged
@@ -60,21 +59,8 @@ MonoBehaviour:
   - {fileID: 817204878262713405, guid: e9d7d209da65ee84fbcde80102ff7e5c, type: 3}
   spawnMin: 4
   spawnMax: 8
---- !u!114 &-3111791164846847138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2234938082719191829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e97c9e55fa4ace94a85377840b7fd0b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy: {fileID: 3752703275388150958, guid: 338b1e4012a3c4c4e9647b9c261ff0ee, type: 3}
-  MyText: {fileID: 5060316624375185634, guid: d4657f3e8b413854eae3e5ab168494be, type: 3}
-  points: 0
+  thisText: {fileID: 5306692618441057376, guid: 908208fd27d86cd4d908a3bb8e3ef0c8,
+    type: 3}
 --- !u!1001 &714950920650146220
 PrefabInstance:
   m_ObjectHideFlags: 0

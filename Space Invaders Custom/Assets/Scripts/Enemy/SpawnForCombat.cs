@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpawnForCombat : MonoBehaviour
 {
@@ -9,11 +10,12 @@ public class SpawnForCombat : MonoBehaviour
     public GameObject[] Spawners;    
     [SerializeField] int spawnMin = 1;
     [SerializeField] int spawnMax = 3;
-
+    [SerializeField] Text thisText;
     // Start is called before the first frame update
     void Start()
     {
         Invoke("spawn", 1);
+        thisText.text = "0";
     }
 
     // Update is called once per frame
